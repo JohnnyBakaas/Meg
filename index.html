@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Johnny Bakaas</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=JetBrains Mono"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div style="display: flex; justify-content: space-between">
+        <h1 onclick="selectNavElement('index.html')">Johnny Bakaas</h1>
+        <div class="burger" onclick="showNav()">☰</div>
+      </div>
+      <nav>
+        <button onclick="selectNavElement('teknisk_tegning.html')">
+          Teknisk tegning
+        </button>
+        <button>3D modellering</button>
+        <button>3D rendering</button>
+        <button>Nettsider</button>
+        <button>Programmering</button>
+        <button>Mine prosjekt</button>
+      </nav>
+    </header>
+
+    <section>
+      <article>
+        <h2>Om meg</h2>
+        <p>
+          Jeg er en ung kar med mye og variert erfaring. Jeg har over 5 års
+          erfaring som teknisk tegner. Utdannet som fullstack utvikler og
+          automatiker og brenner for elektronikk, design og arkitektur.
+        </p>
+      </article>
+      <div class="spacer"></div>
+      <article>
+        <h2>Hva jeg kan hjelpe deg med</h2>
+        <p>
+          Jeg kan hjelpe deg med alt fra å designe nettsiden din til å lage en
+          funksjonell prototype. Erfaringen min kombinert med utdanningene min
+          gir meg en unik evne til å løse problemer på en innovativ og effektiv
+          måte. Jeg driver min egen møbelbutikk
+          <a href="https://telemarkinterior.no/">Telemark Interior</a>
+          hvor jeg selger moderne spesialdesignet møbler etter bestilling. Jeg
+          er også med på å drifte tegningsgrunnlaget til både
+          <a href="https://technopolisglobal.com/no/kontorlokaler/oslo/fornebu/"
+            >Technopolis Fornebu</a
+          >
+          og
+          <a href="https://midt-telemark.kommune.no/">Midt-telemark Kommune</a>.
+        </p>
+      </article>
+    </section>
+    <script src="script.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Johnny Bakaas</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=JetBrains Mono"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div style="display: flex; justify-content: space-between">
+        <h1 onclick="selectNavElement('index.html')">Johnny Bakaas</h1>
+        <div class="burger" onclick="showNav()">☰</div>
+      </div>
+
+      <nav>
+        <button>Teknisk tegning</button>
+        <button>3D modellering</button>
+        <button>3D rendering</button>
+        <button>Nettsider</button>
+        <button>Programmering</button>
+        <button>Mine prosjekt</button>
+      </nav>
+    </header>
+
+    <section>
+      <article>
+        <h2></h2>
+        <p></p>
+      </article>
+
+      <div class="spacer"></div>
+
+      <article>
+        <h2></h2>
+        <p></p>
+      </article>
+    </section>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "JetBrains Mono";
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  nav {
+    flex-direction: column;
+    display: none;
+  }
+  .burger {
+    font-size: 32px;
+    display: block;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+section {
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+
+  animation: fadeIn 1s ease-in;
+  animation-iteration-count: 1;
+}
+
+button {
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+h1 {
+  color: yellow;
+  user-select: none;
+}
+
+h1:hover {
+  color: purple;
+  transition: 0.2s;
+}
+
+button:hover {
+  color: yellow;
+  transition: 0.2s;
+}
+
+.spacer {
+  margin-top: 30px;
+}
+
+a:hover {
+  color: yellow;
+  transition: 0.2s;
+}
+
+p {
+  font-size: 20px;
+}
